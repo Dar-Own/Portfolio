@@ -1,0 +1,16 @@
+# Local metadata
+.DS_Store
+.AppleDouble
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private notes and generated run data
+private/
+internal/
+logs/
+*.log
